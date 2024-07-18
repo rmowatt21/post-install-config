@@ -22,7 +22,6 @@ This tutorial outlines the post-install configuration of the open-source help de
 - Configure Departments/Teams 
 - Configure Agents/Users 
 - Configure SLA
-- Help Topics 
 
 <h2>Configuration Steps</h2>
 
@@ -54,14 +53,19 @@ Having Agents from different Departments assigned to a Team will supersede the p
 
 </p>
 <br />
-<img width="753" alt="os-ticket-teams" src="https://github.com/user-attachments/assets/2a560cd7-abbd-415f-b224-8820f15576bb">
+<img width="756" alt="os-ticket-agents" src="https://github.com/user-attachments/assets/05ffe15a-cf9d-445f-a3aa-506d002de038">
 
-adding an additional team member so we can set up different task for different members
+When adding an Agent to the help desk, they will need to be assigned to a Primary Department and given a Primary Role for the Tickets/Tasks routed to that department. Agents can be given Extended Access to additional departments of the help desk as well as assigned different Roles to those departments; this can be configured in the Access tab of the Agent’s Profile.
 <p>
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="714" alt="os-ticket-user1" src="https://github.com/user-attachments/assets/e24f31e1-28d8-4958-b00a-11ec24e6551f">
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Users are the ticket owners of the tickets in the help desk. When a ticket is created in the help desk, the user is associated with their email address in the User Directory of the help desk. Users can be added or deleted from the User Directory of the help desk at any time. You can add users to the User Directory of the Agent Panel of the help desk either individually or by importing them by uploading a CSV file.
 </p>
 <br />
+
+<img width="726" alt="os-ticket-SLA" src="https://github.com/user-attachments/assets/fa013a36-8e0f-45f4-a82b-16ed6dfac304">
+
+SLA Plans or Service Level Agreements, are unlimited in osTicket. The purpose of the SLA Plan is to provide a length of time in which the help desk Administrator expects tickets to be closed. SLA Plans can be created by going to the Admin Panel > Manage > SLA Plans. Click on the top right of the table to “Add New SLA Plan.”
